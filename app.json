@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Zomato-Clone",
+    "slug": "Zomato-Clone",
+    "description": "This is a Food Delivery App Clone developed using React-Native Expo-Cli, Redux, TailwindCss and Sanity.io for the backend. This App is Developed by Mohammed Arshad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "63de1d80-fb94-4727-a481-6a414fb811e4"
+      }
+    }
+  }
+}
